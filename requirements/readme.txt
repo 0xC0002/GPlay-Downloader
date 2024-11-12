@@ -7,7 +7,6 @@ Requisitos
 3. Ferramenta Externa: ffmpeg deve estar instalado e no PATH do sistema.
    Baixe o ffmpeg em: https://ffmpeg.org/download.html
 4. Verifique se o ffmpeg está acessível no terminal executando o comando ffmpeg -version.
-5. .NET Framework
  
 
 Preparação
