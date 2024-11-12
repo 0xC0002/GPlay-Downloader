@@ -20,23 +20,24 @@ Este script em PowerShell permite o download e a conversão automática de áudi
 ### Passo 1: Configurar o Arquivo listagloboplay.txt
 Crie um arquivo chamado listagloboplay.txt no mesmo diretório onde está o script PowerShell.
 Use o Tampermonkey com o script acima para capturar os links .m3u8 e cole cada link no arquivo listagloboplay.txt, colocando um link por linha.
+
 Passo 2: Configurar o Diretório Base de Download
 No script, ajuste o valor de $diretorioBase para o diretório onde deseja que os arquivos de áudio sejam salvos.
-powershell
-Copiar código
 $diretorioBase = "C:\Users\bruno\Videos\Captures"
+
 Passo 3: Executar o Script
 Abra o PowerShell no diretório onde está o script.
 Execute o script com o comando:
 powershell
 Copiar código
 .\baixar_audios.ps1
+
 Passo 4: Selecionar o Tipo de Mídia e Inserir o Nome
 O script perguntará se você está baixando uma série ou um filme. Responda com s para série ou f para filme.
 Em seguida, insira o nome da série ou filme.
 Se for uma série, o script também pedirá o número de temporadas. Ele criará automaticamente pastas separadas para cada temporada.
-Passo 5: Progresso e Conclusão
-O script mostrará o progresso à medida que baixa e converte os arquivos.
+
+Passo 5: Conclusão
 Ao final, todos os áudios estarão organizados na estrutura de pastas especificada.
 Estrutura de Pastas Criada
 Se for um filme, a estrutura será:
@@ -60,14 +61,14 @@ Captures/
         └── 01.mp3
         └── 02.mp3
 Observações
-Erros de Download: Caso algum link falhe, o script exibe uma mensagem de erro e continua com o próximo link.
 Configuração do PowerShell: Certifique-se de que as configurações de execução do PowerShell permitem a execução de scripts:
-powershell
-Copiar código
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 Licença
 Este script é fornecido como está, para uso pessoal ou educacional. Sinta-se livre para modificá-lo conforme necessário.
 
+
+`Script TamperMonkey`
 ```javascript
 // ==UserScript==
 // @name         Copiar .m3u8 de áudio do Globoplay
