@@ -1,4 +1,4 @@
-# Script PowerShell: Baixar Áudios de Links .m3u8 de um Arquivo `.txt`
+# Script PowerShell: Baixar Áudios de Links .m3u8 de um `.txt`
 
 Este script em PowerShell permite o download e a conversão automática de áudios `.mp3` a partir de links `.m3u8` fornecidos em um arquivo `listagloboplay.txt`. Ele organiza automaticamente os áudios em uma estrutura de pastas para séries e filmes, facilitando o armazenamento e a organização dos arquivos.
 
